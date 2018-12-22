@@ -1,0 +1,112 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: @grey-darker;
+  font-size: 13.5px;
+  font-family: @primary-font;
+  overflow-x: hidden;
+  text-align: left;
+  font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: @primary-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+  font-weight: light;
+}
+
+p {
+  margin: 0;
+}
+
+em {
+  font-style: normal;
+}
+
+a {
+  color: @brand-primary;
+  cursor: pointer;
+  text-decoration: none;
+  &:hover,
+  &:active,
+  &:focus {
+    color: @brand-primary;
+    text-decoration: none;
+  }
+}
+
+.text-link-decoration {
+  text-decoration: underline;
+}
+
+a:active {
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+a:focus {
+  outline: none !important;
+  /* outline: 1px solid #00698c !important;
+	outline-offset: 3px !important;
+	text-decoration: none !important; */
+}
+
+textarea {
+  resize: none;
+}
+
+button:active {
+  outline: none;
+  text-decoration: none !important;
+}
+
+button:focus {
+  outline: none;
+  /* outline: 1px solid #00698c !important;
+	outline-offset: 3px !important;
+	text-decoration: none !important; */
+}
+
+input:focus {
+  outline: none;
+}
+
+/* width */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+  background: @brand-primary;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+  background: @brand-dark-primary;
+}
+
+::selection {
+  color: @white;
+  background-color: @brand-primary;
+}

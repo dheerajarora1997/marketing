@@ -1,0 +1,42 @@
+// Colors
+@dark: #bfbfbf;
+@grey-darker: #323232;
+@brand-primary: #009292;
+@brand-dark-primary: #007575;
+@brand-secondary: #eeeeee;
+@white: #fff;
+// Fonts
+@primary-font: "Open Sans";
+@secondary-font: "Montserrat";
+// Alerts
+@brand-info: #2196f3;
+@brand-success: #4caf50;
+// mixins
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.transform-scale(@scale) {
+  -ms-transform: scale(@scale, @scale);
+  -webkit-transform: scale(@scale, @scale);
+  transform: scale(@scale, @scale);
+}
+
+.rotate(@rotate) {
+  -webkit-transform: rotate(@rotate);
+  -moz-transform: rotate(@rotate);
+  -o-transform: rotate(@rotate);
+  -ms-transform: rotate(@rotate);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+@device-xs-all: ~"only screen and (max-width: 767px)";
+@device-xxs: ~"only screen and (max-width: 410px)";
+@device-xs: ~"only screen and (min-width: 410px) and (max-width: 767px)";
+@device-sm: ~"only screen and (min-width: 767px) and (max-width: 991px)";
+@device-md: ~"only screen and (min-width: 992px) and (max-width: 1025px)";
+@device-lg: ~"only screen and (min-width: 1026px) and (max-width: 1370px)";
+@device-xl: ~"only screen and (min-width: 1371px) and (max-width: 1699px)";
+@device-xxl: ~"only screen and (min-width: 1700px) and (max-width: 2400px)";
