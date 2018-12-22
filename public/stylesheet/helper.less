@@ -27,3 +27,11 @@
 .relative {
   position: relative;
 }
+
+.gradient {
+  background: @brand-secondary;
+  background: -moz-linear-gradient(45deg, @brand-secondary 0%, @brand-primary 100%);
+  background: -webkit-linear-gradient(45deg, @brand-secondary 0%, @brand-primary 100%);
+  background: linear-gradient(45deg, @brand-secondary 0%, @brand-primary 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@brand-secondary', endColorstr='@brand-primary', GradientType=1);
+}
