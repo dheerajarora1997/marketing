@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "a marketing web portal",
   "main": "npm run dev",
-  "scripts": {
-    "test": "npm run dev"
+  "script": {
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/dheerajarora1997/marketing#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
   }
 }
