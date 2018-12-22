@@ -2,7 +2,7 @@
   "name": "marketing",
   "version": "1.0.0",
   "description": "a marketing web portal",
-  "main": "npm run dev",
+  "main": "server.js",
   "script": {
     "start": "node server.js"
   },
