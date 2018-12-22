@@ -1,0 +1,22 @@
+{
+  "name": "marketing",
+  "version": "1.0.0",
+  "description": "a marketing web portal",
+  "main": "npm run dev",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dheerajarora1997/marketing.git"
+  },
+  "keywords": [
+    "marketing"
+  ],
+  "author": "dheeraj arora, sahil arora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dheerajarora1997/marketing/issues"
+  },
+  "homepage": "https://github.com/dheerajarora1997/marketing#readme"
+}
