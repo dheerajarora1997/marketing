@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/dheerajarora1997/marketing/issues"
   },
-  "homepage": "https://github.com/dheerajarora1997/marketing#readme"
+  "homepage": "https://github.com/dheerajarora1997/marketing#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
