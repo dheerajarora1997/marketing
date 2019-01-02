@@ -1,3 +1,58 @@
 include partials/header
-p
-  | Hello There!!
+
+block content
+  section.banner
+    .container
+      .row
+        .col-sm-6.col-xs-12
+          .banner-content
+            .banner-heading
+              h1 GET THE BEST WAY OF MARKETING
+              p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              +anchor("JOIN NOW","javascript:void(0);")(class="default-btn")
+        .col-sm-6.col-xs-12
+          .banner-image
+    .banner-solid-background
+    .banner-image-background
+  section.feature
+    .container
+      .feature-heading.text-center
+        h2 FEATURE PROVIDED BY US
+      .row
+        .col-md-6.col-sm-12
+          .feature-image
+            +img("feature.png")
+        .col-md-6.col-sm-12
+          .feature-content
+            .col-xs-12.col-sm-6
+              .feature-block.active
+                i.fi.fi-target
+                h3 AFFILATE TRACKING
+                p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            .col-xs-12.col-sm-6
+              .feature-block
+                i.fi.fi-report
+                h3 REAL TIME REPORTING
+                p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            .col-xs-12.col-sm-6
+              .feature-block
+                i.fi.fi-ultimate
+                h3 UNLIMITED AFFILATES
+                p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            .col-xs-12.col-sm-6
+              .feature-block
+                i.fi.fi-management
+                h3 AFFILATE MANAGEMENT
+                p Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+  section.services
+    .container
+      .row
+        .col-xs-6
+          h3 REACH YOUR BEST AUDIENCE AT GLOBAL SCALE
+          p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        .col-xs-6
+  section.join
+    .container
+      h5 REACH YOUR BEST AUDIENCE AT GLOBAL SCALE
+      +anchor("SIGN UP For","javascript:void(0);")(class="primary-btn")
+      +anchor("")

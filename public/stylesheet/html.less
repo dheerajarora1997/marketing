@@ -35,13 +35,13 @@ em {
 }
 
 a {
-  color: @brand-primary;
+  color: initial;
   cursor: pointer;
   text-decoration: none;
   &:hover,
   &:active,
   &:focus {
-    color: @brand-primary;
+    color: initial;
     text-decoration: none;
   }
 }
@@ -107,6 +107,6 @@ input:focus {
 }
 
 ::selection {
+  background-color: @dark;
   color: @white;
-  background-color: @brand-primary;
 }

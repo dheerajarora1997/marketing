@@ -1,0 +1,8 @@
+mixin anchor(myAnchor, link)
+    a(href = link )&attributes(attributes) #{myAnchor}
+
+mixin button(myButton)
+    button&attributes(attributes) #{myButton}
+
+mixin img(myImage)
+    img(src='dist/images/' + myImage, aria-hidden='true')&attributes(attributes)
